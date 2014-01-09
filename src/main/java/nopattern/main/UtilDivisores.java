@@ -1,10 +1,11 @@
-package main;
+package nopattern.main;
 
-import utils.SetOrderedNumbers;
+import pattern.utils.SetOrderedNumbers;
 
 /**
  * Esta clase permite trabajar con números que son simultáneamente
  * divisible por dos divisores.
+ * No se puede modificar.
  * @author dmolina
  *
  */

@@ -1,6 +1,6 @@
-package main;
+package nopattern.main;
 
-import utils.SetOrderedNumbers;
+import nopattern.utils.SetOrderedNumbers;
 
 /**
  * Permite trabajar con primos.
