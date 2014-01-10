@@ -6,7 +6,7 @@ package nopattern.shape;
  * @author dmolina
  *
  */
-public class Sphere implements AcceptShape {
+public class Sphere extends CAcceptShape {
 	int x, y, radio;
 
 	public Sphere(int x, int y, int radio) {
@@ -15,7 +15,7 @@ public class Sphere implements AcceptShape {
 		this.radio = radio;
 	}
 	
-	public boolean inside(int newX, int newY) {
+	public boolean internal_inside(int newX, int newY) {
 		if (Math.abs(x-newX) <= radio &&
 			Math.abs(y-newY) <= radio) {
 			return true;
