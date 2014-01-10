@@ -9,8 +9,8 @@ We want to make two changes:
 
 if debugMode is enable.
 
-- Allow to main program to know the percentage of generated points inside the shape. 
+- Allow to main program to know the percentage of generated points inside the sphere. 
 
-- Allow to main program to generate points outside the sphere.
+- Allow to main program to know the global percentage of generated points inside one shape. 
 
 - The DrawShpere and AcceptShape cannot be changed. 
